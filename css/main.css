@@ -1,0 +1,191 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222222;
+}
+
+.clearfix:after{
+  content: ' ';
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+header{
+  background: url(../img/first-bg.jpg) no-repeat center top / cover;
+  padding-bottom: 160px;
+}
+
+.container{
+  width: 930px;
+  margin: 0 auto;
+}
+
+nav{
+  margin-top: 41px;
+  float: right;
+}
+
+.logo{
+  margin-top: 41px;
+  float: left;
+}
+
+.menu{
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.menu li{
+  float: left;
+  display: block;
+  margin-right: 41px;
+}
+
+.menu a{
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+h3, h1{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3{
+  font-size: 40px;
+  margin-top: 180px;
+}
+
+h1{
+  font-size: 65px;
+  margin-top: 14px;
+}
+
+.button{
+  background: #faff24;
+  color: #232325;
+  border-radius: 3px;
+  display: block;
+  width: 240px;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 50px
+}
+
+.title{
+  padding-top: 115px;
+}
+
+.title h2{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.title p{
+  color: #777777;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.services{
+  margin-top: 80px;
+}
+
+.services_item{
+  width: 270px;
+  float: left;
+  text-align: center;
+}
+
+.services_item h3{
+  font-size: 18px;
+  margin: 0;
+}
+
+.services_item p{
+  color: #777777;
+  font-size: 14px;
+}
+
+.services_item:last-child{
+  float: right;
+}
+
+.services_item:nth-last-child(2){
+  margin-left: 60px;
+}
+
+#services{
+  padding-bottom: 70px;
+}
+
+#portfolio {
+	background: #f7f7f7;
+	padding-bottom: 120px;
+}
+.works{
+  margin-top: 70px;
+}
+
+.works img{
+  float: left;
+}
+
+.works img:last-child{
+  float: right;
+}
+
+.works img:nth-last-child(2){
+  margin-left: 30px;
+}
+
+.flex-container-left{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  padding-top: 70px;
+}
+
+.flex-container-right{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  padding-top: 70px;
+}
+
+.flex-element-left{
+  text-align: right;
+  margin-right: 30px;
+}
+
+.flex-element-right{
+  text-align: left;
+  margin-left: 35px;
+
+}
+
+.description-title{
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+}
+
+.description-text{
+  color: #777777;
+}
